@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 99.0.4844 (Windows 10.0.0)" package="unit" timestamp="2022-03-26T12:02:26" id="0" hostname="DESKTOP-T5LD5EC" tests="5" errors="1" failures="5" time="0.138">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.82 Safari/537.36"/>
+  </properties>
+  <testcase name="WeatherFinder Should show No Results Found when there are no results from API" time="0.057" classname=".WeatherFinder">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'data')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:43)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'length')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:48)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+  </testcase>
+  <testcase name="WeatherFinder Should render the Initial UI correctly" time="0.019" classname=".WeatherFinder">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'data')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:43)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+  </testcase>
+  <testcase name="WeatherFinder Should search and render the data - 2" time="0.021" classname=".WeatherFinder">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'data')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:43)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'length')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:48)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+  </testcase>
+  <testcase name="WeatherFinder Should search and render the data - 1" time="0.02" classname=".WeatherFinder">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'data')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:43)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'length')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:48)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+  </testcase>
+  <testcase name="WeatherFinder Perform series of actions" time="0.021" classname=".WeatherFinder">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'data')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:43)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'length')
+    at &lt;Jasmine&gt;
+    at WeatherFinder_Template (ng:///WeatherFinder.js:105:48)
+    at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7302:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7171:1)
+    at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8325:1)
+    at refreshChildComponents (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:6964:1)
+    at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7221:1)
+    at renderComponentOrTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7285:1)
+    at tickRootContext (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8497:1)
+    at detectChangesInRootView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8522:1)
+    at RootViewRef.detectChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9908:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: Object{page: 1, per_page: 10, total: 0, total_pages: 0, data: []}
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: false
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: Object{page: 1, per_page: 10, total: 1, total_pages: 1, data: [Object{name: ..., weather: ..., status: ...}]}
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: true
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: Object{page: 1, per_page: 10, total: 1, total_pages: 1, data: [Object{name: ..., weather: ..., status: ...}]}
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: true
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: Object{page: 1, per_page: 10, total: 1, total_pages: 1, data: [Object{name: ..., weather: ..., status: ...}]}
+,HeadlessChrome 99.0.4844 (Windows 10.0.0) LOG: true
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
