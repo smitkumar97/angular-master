@@ -7,14 +7,14 @@
   <section class="mt-20 layout-row align-items-center justify-content-center">
     <div class="card outlined">
       <div *ngIf="search">
-      <div data-test-id="weather-details"
+      <div data-test-id="weather-details" *ngIf="resObj.data; else name"
         class="card-text pt-10 layout-row justify-content-between">
-        <div *ngIf="resObj.data" class="mt-20 outlined">
+        <div class="mt-20 outlined">
           <i *ngIf="sunny" data-test-id="icon-sunny" class="material-icons">wb_sunny</i>
           <i *ngIf="cold" data-test-id="icon-cold" class="material-icons">ac_unit</i>
           <span data-test-id="result-temperature" class="temperature">{{resObj.data[0].weather}}</span>
         </div>
-        <div *ngIf="resObj.data" class="mr-15 mb-15">
+        <div class="mr-15 mb-15">
           <div data-test-id="result-wind" class="mt-20">
             {{resObj.data[0].status[0]}}
           </div>
@@ -23,10 +23,13 @@
           </div>
         </div>
       </div>
+      <ng-template #name>
         <div *ngIf="!resObj.data && emptyData" data-test-id="no-result"
           class="layout-row justify-content-center align-items-center card-text">
           No Results Found
         </div>
+      </ng-template>
+
       </div>
     </div>
   </section>

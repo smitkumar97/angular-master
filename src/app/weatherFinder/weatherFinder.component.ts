@@ -43,6 +43,7 @@ export class WeatherFinder implements OnInit {
 
   async getWeather() {
     this.search = true;
+    this.emptyData = false;
     if(this.cityName !== '') {
       this.resObj = {};
       await this.getWeatherData().then((res) => {
@@ -61,6 +62,8 @@ export class WeatherFinder implements OnInit {
           }
         });
       }
+      } else {
+        this.emptyData = true;
       }
     } else {
       this.resObj = {};
