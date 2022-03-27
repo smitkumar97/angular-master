@@ -23,9 +23,11 @@ interface ApiResponse {
   styleUrls: ["./weatherFinder.component.scss"],
 })
 export class WeatherFinder implements OnInit {
-  data = [];
+  resObj;
   cold = false;
   sunny = false;
+  search = false;
+  emptyData = false;
   cityName = "";
 
   constructor(private http: HttpClient) {}
@@ -33,8 +35,6 @@ export class WeatherFinder implements OnInit {
   async getWeatherData(): Promise<ApiResponse> | null {
     this.cold = false;
     this.sunny = false;
-    // let queryParams = new HttpParams();
-    // queryParams = queryParams.append("name", this.cityName);
     return this.http
       .get(`https://jsonmock.hackerrank.com/api/weather?name=${this.cityName}`)
       .pipe(map((res) => res as ApiResponse))
@@ -42,13 +42,15 @@ export class WeatherFinder implements OnInit {
   }
 
   async getWeather() {
-    this.data = [];
+    this.search = true;
     if(this.cityName !== '') {
+      this.resObj = {};
       await this.getWeatherData().then((res) => {
-        this.data = res ? res.data : [];
+        this.resObj = res && res.data.length === 1 ? res : {};
       });
-      if (this.data.length > 0) {
-        this.data[0].weather.split(" ").forEach((element) => {
+      if (Object.keys(this.resObj).length !== 0) {
+        if(this.resObj.data[0].name.toUpperCase() === this.cityName.toUpperCase()){
+        this.resObj.data[0].weather.split(" ").forEach((element) => {
           if (!isNaN(element)) {
             if (element < 20) {
               this.cold = true;
@@ -59,6 +61,10 @@ export class WeatherFinder implements OnInit {
           }
         });
       }
+      }
+    } else {
+      this.resObj = {};
+      this.emptyData = true;
     }
   }
 }
